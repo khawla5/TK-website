@@ -1,0 +1,28 @@
+
+<div class="container-fluid container-fluid-custom orange-bg">
+    <form action='/auth/signup' method="POST">
+        <div class="row justify-content-center">
+            <div class="col-md-14 col-lg-15"> 
+                <h1 class="--bs-primary-rgb mb-3 text-center">حساب جديد</h1>
+                <div class="mb-3">
+                    <label for="text" class="form-label">الاسم:</label>
+                    <input name="displayName" placeholder="Norah" type="text" class="form-control"  required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">البريد الإلكتروني:</label>
+                    <input name="email" placeholder="Example@gmail.com" type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">كلمة المرور:</label>
+                    <input name="password" type="password" class="form-control" placeholder="كلمة المرور" id="password" required>
+                </div>
+
+                <div class="inputBox green"> 
+                <button type="submit" class="mb-3 btn btn-primary">تسجيل دخول</button>
+
+                <a href="/login" style="text-decoration: none; color:rgb(86, 83, 83);" class="mb-3 justify-content-center" href="" type="button">عندك حساب؟ <strong>تسجيل دخول</strong></a></div>
+            </div>
+        </div>
+    </form>
+</div>
